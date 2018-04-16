@@ -10,7 +10,10 @@ if (cluster.isMaster) {
         cluster.fork();
     }
 
-    cluster.on('exit', (worker, code, signal) => console.log('Worker #' + worker.process.pid, 'exited'));
+    cluster.on('exit', (worker, code, signal) => {
+        console.log('Worker #' + worker.process.pid, 'exited');
+        cluster.fork();
+    });
 } else {
     app.get('/', (req, res) => res.send('Response from Worker #' + process.pid));
     app.listen(3000);
