@@ -1,0 +1,12 @@
+{
+  "name": "cluster-example",
+  "version": "1.0.0",
+  "description": "A workshop example on how to use node cluster",
+  "main": "with-cluster.js",
+  "author": "Satana Charuwichitratana",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
