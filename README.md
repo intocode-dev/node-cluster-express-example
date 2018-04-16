@@ -1,6 +1,6 @@
 # Node cluster + Express example
 
-## Pre-requisite to do load testing
+## Prerequisite for load testing
 * Python and Locust installed
 ~~~
 pip install locustio
