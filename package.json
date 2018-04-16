@@ -1,7 +1,7 @@
 {
-  "name": "cluster-example",
+  "name": "cluster-express-example",
   "version": "1.0.0",
-  "description": "A workshop example on how to use node cluster",
+  "description": "A workshop example on how to use node cluster with express",
   "main": "with-cluster.js",
   "author": "Satana Charuwichitratana",
   "license": "MIT",

@@ -9,11 +9,11 @@ pip install locustio
 ## Installation
 * Clone this project
 ~~~
-git clone git@github.com:intocode-io/node-cluster-example.git
+git clone git@github.com:intocode-io/node-cluster-express-example.git
 ~~~
 * Install node modules in the project directory
 ~~~
-cd node-cluster-example
+cd node-cluster-express-example
 npm install
 ~~~
 
